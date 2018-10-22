@@ -1,4 +1,5 @@
 const EXPRESS = require('express');
+const PORT = process.env.PORT || 5000
 
 const APP = EXPRESS();
 
@@ -9,6 +10,4 @@ APP.use(EXPRESS.static('public/stylesheets'))
 //     res.render("index.html");
 // })
 
-APP.listen(3000, (req, res) => {
-    console.log("Server now running on port 3000 :)");
-})
+APP.listen(PORT, () => console.log(`Listening on ${ PORT }`));
