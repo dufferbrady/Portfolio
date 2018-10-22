@@ -1,0 +1,351 @@
+@media (max-width : 768px) {
+    #welcome-name {
+        font-size: 200%;
+    }
+    .icon-button {
+        font-size: 3rem;
+    }
+    .icon-button:hover span {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 4rem;
+        margin: -2rem;
+    }
+    #about-me {
+        width: 50vw;
+    }
+    #about-me-header {
+        font-size: 200%;
+    }
+    
+    #about-content {
+        font-size: 125%;
+    }
+    #portfolio-header {
+        font-size: 175%;
+    }
+    .portfolio-cards {
+        grid-template-columns: repeat(2, 40%);
+    }
+    .card-title {
+        font-size: 125%;
+    }
+    .card-text {
+        font-size: 90%;
+    }
+    .button {
+        font-size: 100%;
+    }
+    #contact-page {
+        top: 350%;
+    }
+    #welcome-icons {
+        width: 75%;
+    }
+    #contact-header {
+        font-size: 200%;
+    }
+    #contact-body {
+        font-size: 125%;
+    }
+}
+
+@media (max-width : 540px) {
+    #blue-circle-container {
+        left: 2.5vw;
+        top: 15vw;
+        height: calc(5vw + 2.5vh);
+        width: calc(5vw + 2.5vh);
+    }
+    #center-box {
+        width: 70vw;
+        height: 30vh;
+    }
+    #purple-pink-line-container {
+        left: 11vw;
+    }
+    #memphis-dotted-square {
+        left: 25vw;
+        top: 10vh;
+        height: calc(12.5vw + 5vh);
+        width: calc(12.5vw + 5vh);
+    }
+    #matchstick-triangle-container {
+        width: calc(17.5vw + 5vh);
+        height: calc(17.5vw + 5vh);
+    }
+    #pink-teal-container {
+        height: calc(8vw + 5vh);
+        width: calc(8vw + 5vh);
+        left: 75vw;
+        top: 27.5vh;
+    }
+    #lines-group-container {
+        height: calc(4vw + 1vh);
+        width: calc(15vw + 5vh);
+        left: 75vw;
+        top: 10vh;
+    }
+    #cone-container {
+        width: calc(15vw + 5vh);
+        height: calc(15vw + 5vh);
+        top: 50vh;
+        left: 5vw;
+    }
+    #cone-head {
+        border-top: 12.5vw solid transparent;
+        border-bottom: 8.5vw solid transparent;
+        border-right: 12.5vw solid #FFDF82;
+    }
+    #cone-base {
+        height: 22vw;
+        width: 2vw;
+        background-color: #FF95A8;
+        border-radius: 60%;
+        position: absolute;
+        left: 11.5vw;
+    }
+    #cone-shadow {
+        top: 5%;
+    }
+    #cone-head-shadow {
+        border-top: 12.5vw solid transparent;
+        border-bottom: 8.5vw solid transparent;
+        border-right: 12.5vw solid #67C8BF;
+    }
+    #cone-base-shadow {
+        height: 21vw;
+        width: 2vw;
+        left: 11.5vw;
+    }
+    #cylinder-container {
+        width: calc(5vh + 5vw);
+    }
+    .spotted-triangle-container {
+        height: 12.5vh;
+        width: calc(10vh + 15vw);
+    }
+    #triangle-base {
+        border-left: 7.5vw solid transparent;
+        border-bottom: 12.5vh solid #AF6CB3;
+        border-right: 7.5vw solid transparent;
+    }
+    .spots {
+        border: 0.25vh solid black;
+    }
+    .square-outline-container {
+        top: 45vh;
+        left: 87.5vw;
+        height: calc(5vw + 5vh);
+        width: calc(5vw + 5vh);
+    }
+    #squiggle-container {
+        top: 75vh;
+        left: 10vw;
+        height: 25%;
+        width: 30%;
+    }
+    .squiggle-line {
+        width: 17%;
+    }
+    .circle-button-container {
+        top: 70vh;
+        left: 70vw;
+        width: calc(10vw + 2.5vh);
+        height: calc(10vw + 2.5vh);
+    }
+    #blue-yellow-line-container {
+        top: 60vh;
+        left: 75vw;
+        height: 5%;
+        width: 27.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    #welcome-name {
+        font-size: 110%;
+        color: #FF95A8;
+        letter-spacing: 5px;
+    }
+    #about-page {
+        top: 100%;
+    }
+    #about-me {
+        width: 70vw;
+    }
+    #about-me-header {
+        font-size: 110%
+    }
+    #about-content {
+        font-size: 90%;
+    }
+    #portfolio-header-container {
+        width: 70vw;
+    }
+    .portfolio-cards {
+        grid-template-columns: repeat(1, 85%);
+    }
+    #contact-page {
+        top: 400vh;
+    }
+    #contact-container {
+        width: 70vw;
+    }
+    #contact-header {
+        font-size: 100%;
+    }
+    #contact-body {
+        font-size: 90%;
+    }
+}
+
+@media (max-width : 425px) {
+    #blue-circle-container {
+        left: 2.5vw;
+        top: 15vw;
+        height: calc(5vw + 2.5vh);
+        width: calc(5vw + 2.5vh);
+    }
+    #center-box {
+        width: 70vw;
+        height: 30vh;
+    }
+    #purple-pink-line-container {
+        left: 11vw;
+    }
+    #memphis-dotted-square {
+        left: 25vw;
+        top: 10vh;
+        height: calc(12.5vw + 5vh);
+        width: calc(12.5vw + 5vh);
+    }
+    #matchstick-triangle-container {
+        width: calc(17.5vw + 5vh);
+        height: calc(17.5vw + 5vh);
+    }
+    #pink-teal-container {
+        height: calc(8vw + 5vh);
+        width: calc(8vw + 5vh);
+        left: 75vw;
+        top: 27.5vh;
+    }
+    #lines-group-container {
+        height: calc(4vw + 1vh);
+        width: calc(15vw + 5vh);
+        left: 75vw;
+        top: 10vh;
+    }
+    #cone-container {
+        width: calc(15vw + 5vh);
+        height: calc(15vw + 5vh);
+        top: 50vh;
+        left: 5vw;
+    }
+    #cone-head {
+        border-top: 12.5vw solid transparent;
+        border-bottom: 8.5vw solid transparent;
+        border-right: 12.5vw solid #FFDF82;
+    }
+    #cone-base {
+        height: 22vw;
+        width: 2vw;
+        background-color: #FF95A8;
+        border-radius: 60%;
+        position: absolute;
+        left: 11.5vw;
+    }
+    #cone-shadow {
+        top: 5%;
+    }
+    #cone-head-shadow {
+        border-top: 12.5vw solid transparent;
+        border-bottom: 8.5vw solid transparent;
+        border-right: 12.5vw solid #67C8BF;
+    }
+    #cone-base-shadow {
+        height: 21vw;
+        width: 2vw;
+        left: 11.5vw;
+    }
+    #cylinder-container {
+        width: calc(5vh + 5vw);
+    }
+    .spotted-triangle-container {
+        height: 12.5vh;
+        width: calc(10vh + 15vw);
+    }
+    #triangle-base {
+        border-left: 7.5vw solid transparent;
+        border-bottom: 12.5vh solid #AF6CB3;
+        border-right: 7.5vw solid transparent;
+    }
+    .spots {
+        border: 0.25vh solid black;
+    }
+    .square-outline-container {
+        top: 45vh;
+        left: 87.5vw;
+        height: calc(5vw + 5vh);
+        width: calc(5vw + 5vh);
+    }
+    #squiggle-container {
+        top: 75vh;
+        left: 10vw;
+        height: 25%;
+        width: 30%;
+    }
+    .squiggle-line {
+        width: 17%;
+    }
+    .circle-button-container {
+        top: 70vh;
+        left: 70vw;
+        width: calc(10vw + 2.5vh);
+        height: calc(10vw + 2.5vh);
+    }
+    #blue-yellow-line-container {
+        top: 60vh;
+        left: 75vw;
+        height: 5%;
+        width: 27.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    #welcome-name {
+        font-size: 110%;
+        color: #FF95A8;
+        letter-spacing: 5px;
+       
+    }
+    #about-me {
+        width: 70vw;
+    }
+    #about-me-header {
+        font-size: 110%
+    }
+    #about-content {
+        font-size: 90%;
+    }
+    #portfolio-header-container {
+        width: 70vw;
+    }
+    #portfolio-header {
+        font-size: 110%
+    }
+    .card {
+        height: 50vh;
+    }
+    .card-title {
+        font-size: 110%
+    }
+    .card-text {
+        font-size: 90%
+    }
+    .btn {
+        font-size: 90%;
+    }
+}

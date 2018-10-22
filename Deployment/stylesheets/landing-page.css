@@ -1,0 +1,152 @@
+html body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#landing-page {
+    background-color: #9EE6CE;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/* .row-space {
+    height: 33vh;
+    width: 100vw;
+} */
+
+#welcome-name {
+    font-size: 250%;
+    color: #FF95A8;
+   letter-spacing: 3px;
+   
+}
+ 
+#center-box {
+   position: relative;
+   display: flex;
+   font-family: 'Dosis', sans-serif;
+   margin: 0 auto;
+   width: 50vw;
+   height: 40vh;
+   background: white;
+   z-index: 1;
+}
+ 
+#border {
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 95%;
+   height: 90%;
+   border: 2px solid #FFDF82;
+   margin: auto;
+   z-index: 1;
+}
+
+#welcome-icons {
+    margin: 0 auto;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+/* Wrapper */
+.icon-button {
+    background-color: none;
+    border-radius: 3.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 3.5rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    width: 3.6rem;
+}
+  
+/* Circle */
+.icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+    width: 0;
+}
+  
+.icon-button:hover span {
+    width: 5.4rem;
+    height: 5.4rem;
+    border-radius: 5.4rem;
+    margin: -2.7rem;
+}
+  
+.github span {
+    background-color: #333;
+}
+  
+.linkedin span  {
+    background-color: #0077B5;
+}
+  
+.twitter span {
+    background-color: #00aced;
+}
+  
+/* Icons */
+.icon-button i {
+    background: none;
+    color: white;
+    height: 3.6rem;
+    left: 0;
+    line-height: 3.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+    width: 3.6rem;
+    z-index: 10;
+}
+  
+.icon-button .fab.fa-twitter {
+    color: #00aced;
+}
+  
+.icon-button .fab.fa-linkedin {
+    color: #0077B5;
+}
+  
+.icon-button .fab.fa-github {
+    color: #333;
+}
+  
+.icon-button:hover .fab.fa-github,
+.icon-button:hover .fab.fa-twitter,
+.icon-button:hover .fab.fa-linkedin {
+    color: white;
+}
+
+#name-container {
+    margin-top: 33vh;
+}
+
